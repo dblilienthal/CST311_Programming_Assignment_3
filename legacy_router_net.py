@@ -1,3 +1,7 @@
+# Created by:
+# Derek Lilienthal
+# Aldrin Dancel Carlos
+
 from mininet.net import Mininet
 from mininet.node import Controller, RemoteController, OVSController
 from mininet.node import CPULimitedHost, Host, Node
