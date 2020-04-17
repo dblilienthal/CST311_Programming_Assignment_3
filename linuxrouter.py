@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 """
 linuxrouter.py: Example network with Linux IP router
 

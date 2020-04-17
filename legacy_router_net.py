@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 from mininet.net import Mininet
 from mininet.node import Controller, RemoteController, OVSController
 from mininet.node import CPULimitedHost, Host, Node
