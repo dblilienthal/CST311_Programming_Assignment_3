@@ -3,14 +3,9 @@
 # Aldrin Dancel Carlos
 
 from mininet.net import Mininet
-from mininet.node import Controller, RemoteController, OVSController
-from mininet.node import CPULimitedHost, Host, Node
-from mininet.node import OVSKernelSwitch, UserSwitch
-from mininet.node import IVSSwitch
+from mininet.node import Host, Node
 from mininet.cli import CLI
 from mininet.log import setLogLevel, info
-from mininet.link import TCLink, Intf
-from subprocess import call
 
 def myNetwork():
     # We create a base IP address with the subnet of 8 to declare the network length(10.) and host length (0.0.0) 
